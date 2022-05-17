@@ -1,0 +1,13 @@
+GET localhost:4000/
+
+###
+POST localhost:4000/hello
+Content-Type: application/json
+
+{
+  "name": "Duc"
+}
+
+###
+GET localhost:4000/hello/there
+
